@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  width: 100%;
+  background-color: #181719;
+  color: white;
+}
+
+.navbar {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.logo {
+  font-family: "Crimson Pro", serif;
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 16px;
+  text-transform: uppercase;
+  border: 1.5px solid white;
+  padding: 0.5rem 1rem;
+  margin-left: 1rem;
+}
+.el-ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 3rem;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+.active-li {
+  font-weight: bold;
+  border-bottom: 2px solid white;
+  padding-bottom: 0.2em;
+}
+main {
+  display: flex;
+  gap: 6rem;
+  /* height: 100vh; */
+}
+.section-1 {
+  display: flex;
+  flex-direction: column;
+}
+.section-1 > p {
+  size: 24px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  max-width: 365px;
+  text-justify: newspaper;
+}
+.el-h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+.tilte {
+  font-family: "Lora", serif;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 61px;
+}
+.section-2 {
+  position: relative;
+}
+.imagen-1 {
+  height: 500px;
+}
+
+.tarjeta {
+    position: relative;
+    left: 40%;
+    bottom: 10%;
+  background-color: #181719;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  width: 55%;
+}
+.avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  gap: 1.5rem;
+}
+.imagen-avatar {
+  height: 72px;
+  border-radius: 100%;
+}
+.nombre {
+  font-size: 14px;
+  font-weight: 500;
+}
+.nombre-profesion {
+  color: #828282;
+  font-size: 12px;
+  font-weight: 500;
+}
+.designed{
+    font-weight: 700;
+    font-size: 24px;
+    font-family: "Lora", serif;
+    max-width: 220px;
+}
+
+.footer {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+.username {
+  font-weight: 600;
+}
