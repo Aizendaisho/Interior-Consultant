@@ -79,6 +79,10 @@ main {
   font-weight: 500;
   line-height: 61px;
 }
+.description{
+  font-size: 24px;
+  min-width: 100%;
+}
 .section-2 {
   position: relative;
   margin-right: 3rem;
@@ -133,6 +137,7 @@ main {
   flex-grow: 1;
   flex-basis: 100%;
   bottom: 0%;
+  font-size: 14px;
 }
 .username {
   font-weight: 600;
@@ -197,5 +202,11 @@ main {
   }
   .hidden {
     display: none !important;
+  }
+  .tilte{
+    font-size: 36px;
+  }
+  .description{
+    font-size: 14px;
   }
 }
